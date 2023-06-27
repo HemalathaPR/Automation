@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Testng session test automation suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="emaalatha(failed)">
+    <classes>
+      <class name="Testing.GoogleTitleTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="mailLinks"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Testing.GoogleTitleTest -->
+      <class name="com.testcase.TestingFeatures">
+        <methods>
+          <include name="registerPageTest"/>
+          <include name="LoginTest"/>
+          <include name="HomePageTest"/>
+          <include name="searchPageTest"/>
+        </methods>
+      </class> <!-- com.testcase.TestingFeatures -->
+    </classes>
+  </test> <!-- emaalatha(failed) -->
+</suite> <!-- Failed suite [Testng session test automation suite] -->

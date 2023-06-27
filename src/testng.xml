@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Testng session test automation suite">
+	<test name= "hemaalatha">
+		<classes>
+			<class name= "com.testcase.GoogleTest"/>
+			<class name ="com.testcase.TestingFeatures"/>
+			<class name ="com.testcase.testngbasics"/>
+			<class name= "Testing.InvocationCountTest"/>
+			<class name= "Testing.GoogleTitleTest"/>
+			<class name ="Testing.ExceptionTimeOutTest"/>
+		</classes>
+	</test>
+</suite>
